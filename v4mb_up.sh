@@ -1,4 +1,4 @@
-wget -c https://raw.githubusercontent.com/Anylines/jd_v4_bot/main/v4mb.tar.gz
+wget -c https://raw.githubusercontent.com/pei-shuai/jd_v4_bot/main/v4mb.tar.gz
 tar -zxvf v4mb.tar.gz
 rm -f v4mb.tar.gz
 cp -r v4mb config/
