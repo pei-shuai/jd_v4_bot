@@ -10,5 +10,5 @@ cp v4mb/config/diy.sh /jd/config/diy.sh
 cp v4mb/config/shortcut.list /jd/config/shortcut.list
 rm -rf v4mb
 ln -s /jd/config/v4mb/25-server /etc/cont-init.d/25-server
-pm2 start /jd/panel/server.js
+source /jd/config/diy.sh
 echo -e "面板已更新完成，请使用旧密码进行访问面板"
